@@ -96,5 +96,4 @@ public class MyRouteBuilder extends RouteBuilder {
                 .to("https://thesimpsonsquoteapi.glitch.me/quotes?count=20")
                 .log("Response ws rest simspons : ${body}");
     }
-
 }
