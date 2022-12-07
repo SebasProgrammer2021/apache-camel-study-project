@@ -12,6 +12,7 @@ public class MainApp {
      */
     public static void main(String... args) throws Exception {
         Main main = new Main(); //es un main de camel,
+        //se configura el inicio del flujo añadiendo una ruta y su codigo dentro de la clase MyRouteBuilder
         main.configure().addRoutesBuilder(new MyRouteBuilder());
         main.run(args);
     }
